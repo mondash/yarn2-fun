@@ -1,0 +1,20 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.nodePath": ".yarn/sdks",
+  "eslint.options": {
+    "configFile": "./config/.eslintrc.yml",
+    "ignorePath": "./config/.eslintignore"
+  },
+  "files.eol": "\n",
+  "prettier.configPath": "./config/.prettierrc.json",
+  "prettier.ignorePath": "./config/.prettierignore",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "search.exclude": {
+    "**/.pnp.*": true,
+    "**/.yarn": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": ".yarn/sdks/typescript/lib"
+}

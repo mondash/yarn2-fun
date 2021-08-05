@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDir": "..",
+    "composite": true,
+
+    "inlineSourceMap": true,
+    "declarationMap": true,
+
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "tsBuildInfoFile": "../build/base.tsbuildinfo"
+  },
+  "exclude": [
+    "../.git",
+    "../.github",
+    "../.vscode",
+    "../.yarn",
+    "../build",
+    "../coverage",
+    "../node_modules"
+  ]
+}

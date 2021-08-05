@@ -1,0 +1,12 @@
+{
+  "extends": "./config/tsconfig.base.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./build/.tsbuildinfo"
+  },
+  "files": [],
+  "references": [
+    { "path": "./config/tsconfig.workspace.json" },
+    { "path": "./packages/calc" },
+    { "path": "./packages/math" }
+  ]
+}

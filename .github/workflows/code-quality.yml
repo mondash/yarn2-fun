@@ -1,0 +1,65 @@
+name: Code Quality
+on:
+  - push
+  - pull_request
+jobs:
+  check-lint:
+    name: Check Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
+      - name: Set Up NodeJS
+        uses: actions/setup-node@v2
+        with:
+          cache: yarn
+          node-version: 14
+      - name: Install Node Modules
+        run: yarn install --immutable --immutable-cache
+      - name: Run Lint Check
+        run: yarn check:lint
+  check-style:
+    name: Check Style
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
+      - name: Set Up NodeJS
+        uses: actions/setup-node@v2
+        with:
+          cache: yarn
+          node-version: 14
+      - name: Install Node Modules
+        run: yarn install --immutable --immutable-cache
+      - name: Run Lint Check
+        run: yarn check:style
+  check-types:
+    name: Check Types
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
+      - name: Set Up NodeJS
+        uses: actions/setup-node@v2
+        with:
+          cache: yarn
+          node-version: 14
+      - name: Install Node Modules
+        run: yarn install --immutable --immutable-cache
+      - name: Run Lint Check
+        run: yarn check:types
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
+      - name: Set Up NodeJS
+        uses: actions/setup-node@v2
+        with:
+          cache: yarn
+          node-version: 14
+      - name: Install Node Modules
+        run: yarn install --immutable --immutable-cache
+      - name: Run Tests
+        run: yarn test:ci
