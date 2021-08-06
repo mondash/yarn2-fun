@@ -1,9 +1,13 @@
 {
-  "extends": "../../config/tsconfig.base.json",
+  "extends": "./config/tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "tsBuildInfoFile": "../../build/math.tsbuildinfo"
+    "outDir": "./build",
+    "rootDir": ".",
+    "tsBuildInfoFile": "./build/.tsbuildinfo"
   },
-  "include": ["./src"]
+  "files": [],
+  "references": [
+    { "path": "./config/tsconfig.src.json" },
+    { "path": "./config/tsconfig.tests.json" }
+  ]
 }

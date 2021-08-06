@@ -5,10 +5,14 @@ env:
   node: true
 parser: "@typescript-eslint/parser"
 parserOptions:
+  # HACK @typescript-eslint does not respect project references,
+  #      so all files (excluding base configs) must be specified.
   project:
     - "tsconfig.json"
     - "config/tsconfig.workspace.json"
     - "packages/*/tsconfig.json"
+    - "packages/*/config/tsconfig.src.json"
+    - "packages/*/config/tsconfig.tests.json"
   # TODO https://github.com/typescript-eslint/typescript-eslint/issues/2094
   EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true
 plugins:

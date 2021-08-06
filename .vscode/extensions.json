@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "arcanis.vscode-zipfs",
-    "arthurwang.vsc-prolog",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "rebornix.prolog"

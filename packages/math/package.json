@@ -6,13 +6,13 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b",
+    "clean": "rimraf build dist",
     "check:lint": "yarn g:lint $INIT_CWD",
     "check:style": "yarn g:style --check $INIT_CWD",
-    "check:types": "yarn build"
+    "check:types": "yarn build",
+    "test": "echo TODO"
   },
   "files": [
-    "dist",
-    "!__tests__",
-    "!*.test.*"
+    "dist"
   ]
 }
