@@ -1,7 +1,5 @@
 .git
-.github
 .pnp.cjs
-.vscode
 .yarn
 build
 coverage

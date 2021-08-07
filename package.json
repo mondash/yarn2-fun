@@ -16,7 +16,7 @@
     "fix-style": "yarn g:style --write .",
     "test-ci": "echo TODO",
     "package-publish": "yarn build && changeset publish",
-    "package-version": "changeset version && yarn fix:style",
+    "package-version": "changeset version && yarn fix-style",
     "g:lint": "eslint --config config/.eslintrc.yml --ignore-path config/.eslintignore",
     "g:style": "prettier --config config/.prettierrc.json --ignore-path config/.prettierignore"
   },
