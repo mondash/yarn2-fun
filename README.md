@@ -1,4 +1,4 @@
-# yarn2-pnp-testing
+# yarn2-pnp-fun
 
 An optimal yarn berry workspace for typescript libraries with an assortment of devtools including jest, eslint, prettier, changesets, and more!
 

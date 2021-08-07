@@ -1,5 +1,5 @@
 {
-  "name": "@mondash/yarn2-pnp-testing",
+  "name": "@mondash/yarn2-pnp-fun",
   "packageManager": "yarn@3.0.0",
   "private": true,
   "workspaces": [
