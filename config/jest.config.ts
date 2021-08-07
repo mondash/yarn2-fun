@@ -1,13 +1,15 @@
+// TODO Rework how tests work in the monorepo
+// workspace tests, package tests, ci, watch mode, package focus...
+
 import { Config } from "@jest/types";
 import path from "path";
 
 const ignorePatterns = [
-  "<rootDir>/.changeset",
   "<rootDir>/.git",
   "<rootDir>/.github",
-  "<rootDir>/.vscode",
+  "<rootDir>/.yarn",
   "<rootDir>/coverage",
-  "<rootDir>/dist",
+  "<rootDir>/build",
 ];
 
 const rootDir = path.resolve(__dirname, "..");

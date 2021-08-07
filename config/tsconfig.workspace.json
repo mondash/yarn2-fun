@@ -5,5 +5,14 @@
     "rootDir": "..",
     "tsBuildInfoFile": "../build/workspace.tsbuildinfo"
   },
-  "include": ["../config"]
+  "include": [".."],
+  "exclude": [
+    "../.git",
+    "../.github",
+    "../.yarn",
+    "../build",
+    "../coverage",
+    "../packages",
+    "../.pnp.cjs"
+  ]
 }

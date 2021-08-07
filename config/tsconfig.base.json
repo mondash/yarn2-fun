@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": "..",
     "composite": true,
 
     "inlineSourceMap": true,
@@ -16,16 +15,6 @@
 
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "tsBuildInfoFile": "../build/base.tsbuildinfo"
-  },
-  "exclude": [
-    "../.git",
-    "../.github",
-    "../.vscode",
-    "../.yarn",
-    "../build",
-    "../coverage",
-    "../node_modules"
-  ]
+    "noFallthroughCasesInSwitch": true
+  }
 }
