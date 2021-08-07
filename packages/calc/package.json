@@ -19,6 +19,6 @@
     "@mondash/math": "workspace:packages/math"
   },
   "devDependencies": {
-    "@types/node": "^16.4.12"
+    "@types/node": "^16.4.13"
   }
 }

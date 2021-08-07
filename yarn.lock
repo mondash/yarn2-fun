@@ -931,7 +931,7 @@ __metadata:
   resolution: "@mondash/calc@workspace:packages/calc"
   dependencies:
     "@mondash/math": "workspace:packages/math"
-    "@types/node": ^16.4.12
+    "@types/node": ^16.4.13
   languageName: unknown
   linkType: soft
 
@@ -948,7 +948,7 @@ __metadata:
     "@changesets/cli": ^2.16.0
     "@jest/types": ^27.0.6
     "@types/eslint": ^7.28.0
-    "@types/node": ^16.4.12
+    "@types/node": ^16.4.13
     "@types/prettier": ^2.3.2
     "@types/rimraf": ^3.0.1
     "@typescript-eslint/eslint-plugin": ^4.29.0
@@ -1179,7 +1179,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.4.12":
+"@types/node@npm:*, @types/node@npm:^16.4.13":
   version: 16.4.13
   resolution: "@types/node@npm:16.4.13"
   checksum: 071e86a1d196cf72928a7109e99769dffed93db481032b9ca2f52e6f3ced432e2a179849c85e587e67409202e1ed37bffd0c7a31d38adf35a385d327dfe8bd72
