@@ -6,3 +6,4 @@ An optimal yarn berry workspace for typescript libraries with an assortment of d
 
 - Finish initial exploration and framework
 - Look into _constraints_ for typescript plugin `@types` dependency semver ranges
+- investigate monorepo prereleases

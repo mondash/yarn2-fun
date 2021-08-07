@@ -11,7 +11,7 @@
     "check-lint": "yarn g:lint .",
     "check-style": "yarn g:style --check .",
     "check-types": "yarn build",
-    "clean": "rimraf build && yarn workspaces foreach run clean",
+    "clean": "rimraf build coverage && yarn workspaces foreach run clean",
     "doctor": "yarn dlx @yarnpkg/doctor",
     "fix-style": "yarn g:style --write .",
     "test-ci": "echo TODO",

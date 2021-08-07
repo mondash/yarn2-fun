@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b",
-    "clean": "rimraf build dist",
+    "clean": "rimraf build coverage dist",
     "check-lint": "yarn g:lint .",
     "check-style": "yarn g:style --check .",
     "check-types": "yarn build",
