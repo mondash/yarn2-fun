@@ -15,10 +15,10 @@
   "files": [
     "dist"
   ],
-  "devDependencies": {
-    "@types/node": "^16.4.12"
-  },
   "dependencies": {
     "@mondash/math": "workspace:packages/math"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.12"
   }
 }
