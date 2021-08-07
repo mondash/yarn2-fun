@@ -6,7 +6,6 @@ const ignorePatterns = [
   "<rootDir>/.git",
   "<rootDir>/.github",
   "<rootDir>/.vscode",
-  "<rootDir>/node_modules",
   "<rootDir>/coverage",
   "<rootDir>/dist",
 ];

@@ -1,6 +1,6 @@
 {
   "name": "@mondash/calc",
-  "version": "0.0.0",
+  "version": "0.0.1-rc.1",
   "packageManager": "yarn@3.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,5 +20,6 @@
   },
   "dependencies": {
     "@mondash/math": "workspace:packages/math"
-  }
+  },
+  "stableVersion": "0.0.0"
 }
