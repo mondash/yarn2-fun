@@ -11,7 +11,7 @@ parserOptions:
     - "tsconfig.json"
     - "config/tsconfig.workspace.json"
     - "packages/*/tsconfig.json"
-    - "packages/*/config/{src,test}.tsconfig.json"
+    - "packages/*/config/tsconfig.{src,tests}.json"
   # TODO https://github.com/typescript-eslint/typescript-eslint/issues/2094
   # https://github.com/typescript-eslint/typescript-eslint/pull/2669
   EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true
