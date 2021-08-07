@@ -7,9 +7,9 @@
   "scripts": {
     "build": "tsc -b",
     "clean": "rimraf build dist",
-    "check:lint": "yarn g:lint $INIT_CWD",
-    "check:style": "yarn g:style --check $INIT_CWD",
-    "check:types": "yarn build",
+    "check-lint": "yarn g:lint .",
+    "check-style": "yarn g:style --check .",
+    "check-types": "yarn build",
     "test": "echo TODO"
   },
   "files": [

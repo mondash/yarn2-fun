@@ -1,11 +1,13 @@
 {
   "extends": "../../config/tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "tsBuildInfoFile": "../../build/calc.tsbuildinfo",
-    "types": ["node"]
+    "outDir": "./build",
+    "rootDir": ".",
+    "tsBuildInfoFile": "./build/.tsbuildinfo"
   },
-  "include": ["./src"],
-  "references": [{ "path": "../math" }]
+  "files": [],
+  "references": [
+    { "path": "./config/tsconfig.src.json" },
+    { "path": "./config/tsconfig.tests.json" }
+  ]
 }

@@ -6,7 +6,7 @@ env:
 parser: "@typescript-eslint/parser"
 parserOptions:
   # HACK @typescript-eslint does not respect project references,
-  #      so all files (excluding base configs) must be specified.
+  #      so all referenced files (excluding base configs) must be specified.
   project:
     - "tsconfig.json"
     - "config/tsconfig.workspace.json"
