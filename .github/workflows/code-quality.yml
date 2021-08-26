@@ -7,6 +7,8 @@ jobs:
     name: Check Lint
     runs-on: ubuntu-latest
     steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
       - name: Setup
         uses: ./../actions/setup
       - name: Run Lint Check
@@ -15,6 +17,8 @@ jobs:
     name: Check Style
     runs-on: ubuntu-latest
     steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
       - name: Setup
         uses: ./../actions/setup
       - name: Run Lint Check
@@ -23,6 +27,8 @@ jobs:
     name: Check Types
     runs-on: ubuntu-latest
     steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
       - name: Setup
         uses: ./../actions/setup
       - name: Run Lint Check
@@ -31,6 +37,8 @@ jobs:
     name: Tests
     runs-on: ubuntu-latest
     steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
       - name: Setup
         uses: ./../actions/setup
       - name: Run Tests

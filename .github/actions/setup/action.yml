@@ -3,8 +3,6 @@ description: Initializes GitHub Actions runner
 runs:
   using: composite
   steps:
-    - name: Check Out Repo
-      uses: actions/checkout@v2
     - name: Set Up NodeJS
       uses: actions/setup-node@v2
       with:
