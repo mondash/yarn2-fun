@@ -10,7 +10,7 @@ jobs:
       - name: Check Out Repo
         uses: actions/checkout@v2
       - name: Setup
-        uses: ./../actions/setup
+        uses: ./.github/actions/setup
       - name: Run Lint Check
         run: yarn check-lint
   check-style:
@@ -20,7 +20,7 @@ jobs:
       - name: Check Out Repo
         uses: actions/checkout@v2
       - name: Setup
-        uses: ./../actions/setup
+        uses: ./.github/actions/setup
       - name: Run Lint Check
         run: yarn check-style
   check-types:
@@ -30,7 +30,7 @@ jobs:
       - name: Check Out Repo
         uses: actions/checkout@v2
       - name: Setup
-        uses: ./../actions/setup
+        uses: ./.github/actions/setup
       - name: Run Lint Check
         run: yarn check-types
   tests:
@@ -40,6 +40,6 @@ jobs:
       - name: Check Out Repo
         uses: actions/checkout@v2
       - name: Setup
-        uses: ./../actions/setup
+        uses: ./.github/actions/setup
       - name: Run Tests
         run: yarn test-ci
