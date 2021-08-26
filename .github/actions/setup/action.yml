@@ -10,3 +10,4 @@ runs:
         node-version: 14
     - name: Install Node Modules
       run: yarn install --immutable --immutable-cache
+      shell: sh
